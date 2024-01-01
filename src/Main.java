@@ -15,7 +15,6 @@ public class Main {
         List<Double> costs = new ArrayList<>(); // список максимальных доходностей особей в поколении
         List<Double> averageCosts = new ArrayList<>(); // список средних доходностей поколений
         int repeatsQty = 0; // счётчик повторяющегося предела
-        int i = 0;
         while (repeatsQty < 5) {
             costs.add(p.getBestPortfolio().getCost());
             averageCosts.add(p.getAveragePopulationCost());
